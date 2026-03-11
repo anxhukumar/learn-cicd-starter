@@ -101,6 +101,6 @@ func main() {
 		log.Fatal("invalid port")
 	}
 
-	log.Printf("Serving on port: %s\n", p)
+	log.Printf("Serving on port: %v\n", p)
 	log.Fatal(srv.ListenAndServe())
 }
